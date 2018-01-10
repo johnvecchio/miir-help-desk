@@ -1,0 +1,42 @@
+.header {
+	background-color: #000;
+	color: #fff;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+
+	&__logo {
+		height: 5rem;
+		position: absolute;
+		top: 2rem;
+		left: 1rem;
+
+		@media screen and (max-width: 800px) {
+			height: 2.8rem;
+			position: absolute;
+			top: 1rem;
+			left: .5rem;
+		}
+	}
+
+	&__slogan {
+		font-size: 6.5rem;
+		font-weight: 300;
+		text-align: center;
+
+		@media screen and (max-width: 800px) {
+			font-size: 3.5rem;
+		}
+	}
+}
+
+.mainview {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+
