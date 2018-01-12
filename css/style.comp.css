@@ -71,9 +71,13 @@ body {
     .selfhelp__box-logo {
       max-height: 100%;
       max-width: 100%; }
+      @media screen and (max-width: 800px) {
+        .selfhelp__box-logo {
+          height: 15rem; } }
     .selfhelp__box-text {
       font-size: 1.5rem;
-      font-weight: 700; }
+      font-weight: 700;
+      flex-shrink: 1; }
     .selfhelp__box-btn {
       background-color: #fff;
       color: var(--color-grey-dark-1);
@@ -82,7 +86,8 @@ body {
       border: none;
       font-size: 1.2rem;
       cursor: pointer;
-      text-decoration: none; }
+      text-decoration: none;
+      flex-shrink: 1; }
     @media screen and (min-width: 1200px) {
       .selfhelp__box {
         height: 25rem;
@@ -127,10 +132,14 @@ body {
     margin: 5rem;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
     .miirhelp__box-logo {
       max-height: 100%;
       max-width: 100%; }
+      @media screen and (max-width: 800px) {
+        .miirhelp__box-logo {
+          height: 15rem; } }
     .miirhelp__box-text {
       font-size: 1.5rem;
       font-weight: 700; }
@@ -201,9 +210,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    @media screen and (max-width: 650px) {
-      .popup__content {
-        width: 100%; } }
     .popup__content-heading {
       font-size: 3rem;
       border-bottom: 1px dotted #000;
