@@ -1,5 +1,4 @@
 :root {
-  --color-primary: #f4424b;
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
   --color-grey-light-3: #f0eeee;
@@ -28,7 +27,7 @@ body {
 .header {
   background-color: #000;
   color: #fff;
-  height: 30vh;
+  height: 28vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -69,6 +68,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .selfhelp__box-logo {
+      max-height: 100%;
+      max-width: 100%; }
     .selfhelp__box-text {
       font-size: 1.5rem;
       font-weight: 700; }
@@ -126,6 +128,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .miirhelp__box-logo {
+      max-height: 100%;
+      max-width: 100%; }
     .miirhelp__box-text {
       font-size: 1.5rem;
       font-weight: 700; }
