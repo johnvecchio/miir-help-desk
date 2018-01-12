@@ -210,6 +210,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    @media screen and (max-width: 800px) {
+      .popup__content {
+        width: 100% !important; } }
     .popup__content-heading {
       font-size: 3rem;
       border-bottom: 1px dotted #000;
